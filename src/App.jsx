@@ -5,8 +5,6 @@ export const App = ({ value }) => {
   const [counter, setCounter] = useState(value);
 
   const handleAdd = () => {
-    // console.log(event);
-    // setCounter(counter + 1);
     setCounter((c) => c + 1);
   };
 
